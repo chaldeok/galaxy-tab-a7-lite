@@ -1,0 +1,22 @@
+.main-container {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: $spacing_desk;
+}
+.main-container--mb {
+  margin-bottom: 30px;
+}
+.section {
+  width: 100%;
+}
+picture {
+  width: 70%;
+  height: auto;
+}
+
+.img-basic {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
