@@ -15,9 +15,16 @@
   object-fit: contain;
 }
 
+.main-container--bottom {
+  position: relative;
+}
+
 /* button */
 
 .sm-btn-basic {
+  position: absolute;
+  left: 41%;
+  bottom: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +63,8 @@
   }
 
   .sm-btn-basic {
+    position: relative;
+    left: 0;
     margin: 20px auto;
   }
 
